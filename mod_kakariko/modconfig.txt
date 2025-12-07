@@ -1,3 +1,6 @@
+modname "mod_kakariko"
+modversion "1.0"
+
 # Kakariko Village Mod for All in One Mod v4
 # Author: Jonaeru / Atari-Dude
 

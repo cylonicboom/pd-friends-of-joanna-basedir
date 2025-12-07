@@ -1,3 +1,6 @@
+modname "mod_dark_noon"
+modversion "1.0"
+
 # Dark Noon Mod for All in One Mod v3
 # Author: Jonaeru / Atari-Dude
 

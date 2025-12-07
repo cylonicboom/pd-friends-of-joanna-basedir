@@ -1,3 +1,6 @@
+modname "mod_goldfinger_64"
+modversion "1.0"
+
 # Goldfinger 64 Mod for All in One Mod v1
 # Author: Jonaeru / Atari-Dude
 

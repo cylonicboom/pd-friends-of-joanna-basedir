@@ -1,3 +1,6 @@
+modname "mod_gex"
+modversion "1.0"
+
 # GoldenEye X Multiplayer Mod for All in One Mod v10
 # Author: Jonaeru / Atari-Dude
 

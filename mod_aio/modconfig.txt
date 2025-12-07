@@ -1,3 +1,6 @@
+modname "mod_aio"
+modversion "1.0"
+
 # Perfect Dark Plus & All Solos in Multi Mod v13
 # Author: Jonaeru / Atari-Dude
 
@@ -41,4 +44,379 @@
 # Suburb
 stage 0x18 {
   allocation "-ml0 -me0 -mgfx110 -mgfxtra80 -mvtx100 -ma700"
+}
+
+HeadsAndBodies {
+    name "head_grey"
+    filenum "CheadgreyZ"
+}
+
+MpHeads {
+    headnum 0
+    requirefeature 0
+}
+MpArena {
+    stagenum 3
+    requirefeature 0
+    name 20601
+}
+MpArena {
+    stagenum 32
+    requirefeature 0
+    name 20602
+}
+MpArena {
+    stagenum 66
+    requirefeature 0
+    name 20603
+}
+MpArena {
+    stagenum 60
+    requirefeature 0
+    name 20604
+}
+MpArena {
+    stagenum 71
+    requirefeature 0
+    name 20605
+}
+MpArena {
+    stagenum 65
+    requirefeature 0
+    name 20606
+}
+MpArena {
+    stagenum 59
+    requirefeature 0
+    name 20607
+}
+MpArena {
+    stagenum 57
+    requirefeature 0
+    name 20608
+}
+MpArena {
+    stagenum 68
+    requirefeature 0
+    name 20610
+}
+MpArena {
+    stagenum 69
+    requirefeature 0
+    name 20611
+}
+MpArena {
+    stagenum 61
+    requirefeature 0
+    name 20612
+}
+MpArena {
+    stagenum 48
+    requirefeature 0
+    name 22149
+}
+MpArena {
+    stagenum 51
+    requirefeature 0
+    name 22151
+}
+MpArena {
+    stagenum 44
+    requirefeature 0
+    name 22155
+}
+MpArena {
+    stagenum 29
+    requirefeature 0
+    name 22157
+}
+MpArena {
+    stagenum 30
+    requirefeature 0
+    name 22159
+}
+MpArena {
+    stagenum 47
+    requirefeature 0
+    name 22161
+}
+MpArena {
+    stagenum 39
+    requirefeature 0
+    name 22167
+}
+MpArena {
+    stagenum 49
+    requirefeature 0
+    name 22169
+}
+MpArena {
+    stagenum 28
+    requirefeature 0
+    name 22171
+}
+MpArena {
+    stagenum 33
+    requirefeature 0
+    name 22173
+}
+MpArena {
+    stagenum 56
+    requirefeature 0
+    name 22175
+}
+MpArena {
+    stagenum 45
+    requirefeature 0
+    name 22177
+}
+MpArena {
+    stagenum 52
+    requirefeature 0
+    name 22179
+}
+MpArena {
+    stagenum 42
+    requirefeature 0
+    name 22181
+}
+MpArena {
+    stagenum 37
+    requirefeature 0
+    name 20613
+}
+MpArena {
+    stagenum 31
+    requirefeature 0
+    name 20614
+}
+MpArena {
+    stagenum 62
+    requirefeature 0
+    name 20786
+}
+MpArena {
+    stagenum 58
+    requirefeature 0
+    name 20609
+}
+MpArena {
+    stagenum 67
+    requirefeature 0
+    name 20615
+}
+MpArena {
+    stagenum 11
+    requirefeature 0
+    name 20613
+}
+MpArena {
+    stagenum 6
+    requirefeature 0
+    name 20614
+}
+MpArena {
+    stagenum 13
+    requirefeature 0
+    name 20786
+}
+MpArena {
+    stagenum 14
+    requirefeature 0
+    name 20783
+}
+MpArena {
+    stagenum 18
+    requirefeature 0
+    name 20782
+}
+MpArena {
+    stagenum 21
+    requirefeature 0
+    name 20789
+}
+MpArena {
+    stagenum 15
+    requirefeature 0
+    name 20791
+}
+MpArena {
+    stagenum 16
+    requirefeature 0
+    name 20780
+}
+MpArena {
+    stagenum 8
+    requirefeature 0
+    name 20779
+}
+MpArena {
+    stagenum 17
+    requirefeature 0
+    name 20785
+}
+MpArena {
+    stagenum 19
+    requirefeature 0
+    name 20792
+}
+MpArena {
+    stagenum 73
+    requirefeature 0
+    name 20787
+}
+MpArena {
+    stagenum 5
+    requirefeature 0
+    name 20778
+}
+MpArena {
+    stagenum 1
+    requirefeature 0
+    name 20794
+}
+MpArena {
+    stagenum 72
+    requirefeature 0
+    name 20802
+}
+MpArena {
+    stagenum 70
+    requirefeature 0
+    name 20795
+}
+MpArena {
+    stagenum 7
+    requirefeature 0
+    name 20790
+}
+MpArena {
+    stagenum 74
+    requirefeature 0
+    name 20784
+}
+MpArena {
+    stagenum 10
+    requirefeature 0
+    name 20793
+}
+MpArena {
+    stagenum 76
+    requirefeature 0
+    name 20788
+}
+MpArena {
+    stagenum 75
+    requirefeature 0
+    name 20781
+}
+MpArena {
+    stagenum 12
+    requirefeature 0
+    name 20796
+}
+MpArena {
+    stagenum 64
+    requirefeature 0
+    name 20803
+}
+MpArena {
+    stagenum 36
+    requirefeature 0
+    name 20799
+}
+MpArena {
+    stagenum 63
+    requirefeature 0
+    name 20801
+}
+MpArena {
+    stagenum 4
+    requirefeature 0
+    name 20804
+}
+MpArena {
+    stagenum 26
+    requirefeature 0
+    name 20805
+}
+MpArena {
+    stagenum 81
+    requirefeature 0
+    name 20807
+}
+MpArena {
+    stagenum 82
+    requirefeature 0
+    name 20808
+}
+MpArena {
+    stagenum 83
+    requirefeature 0
+    name 20809
+}
+MpArena {
+    stagenum 84
+    requirefeature 0
+    name 20810
+}
+MpArena {
+    stagenum 85
+    requirefeature 0
+    name 20811
+}
+MpArena {
+    stagenum 86
+    requirefeature 0
+    name 20812
+}
+MpArena {
+    stagenum 87
+    requirefeature 0
+    name 20813
+}
+MpArena {
+    stagenum 88
+    requirefeature 0
+    name 20814
+}
+MpArena {
+    stagenum 89
+    requirefeature 0
+    name 20815
+}
+MpArena {
+    stagenum 90
+    requirefeature 0
+    name 20816
+}
+MpArena {
+    stagenum 91
+    requirefeature 0
+    name 20817
+}
+MpArena {
+    stagenum 80
+    requirefeature 0
+    name 20818
+}
+MpArena {
+    stagenum 2
+    requirefeature 0
+    name 20774
+}
+MpArena {
+    stagenum 3
+    requirefeature 0
+    name 20775
+}
+MpArena {
+    stagenum 4
+    requirefeature 0
+    name 20797
+}
+MpArena {
+    stagenum 1
+    requirefeature 0
+    name 20616
 }
