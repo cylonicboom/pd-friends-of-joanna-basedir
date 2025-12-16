@@ -100,6 +100,41 @@ stage 0x40 {
 stage 0x46 {
 }
 
+# GoldenEye X Model Scaling Overrides
+# Many models scaled down to 0.0999 for GoldenEye X compatibility
+ModelStates {
+	0x0020 { Scale: 0.0999 }
+	0x0022 { Scale: 0.0999 }
+	0x0024 { Scale: 0.0999 }
+	0x0051 { Scale: 0.0999 }
+	0x0052 { Scale: 0.0999 }
+	0x0079 { Scale: 0.0999 }
+	0x00b1 { Scale: 0.0999 }
+	0x00c1 { Scale: 0.0999 }
+	0x00e2 { Scale: 0.0999 }
+	0x0155 { Scale: 0.0999 }
+	0x0175 { Scale: 0.0999 }
+	0x0187 { Scale: 0.0999 }
+	0x0188 { Scale: 0.0999 }
+	0x0189 { Scale: 0.0999 }
+	0x018c { Scale: 0.0999 }
+	0x018d { Scale: 0.0999 }
+	0x018e { Scale: 0.0999 }
+	0x0192 { Scale: 0.0999 }
+	0x01af { Scale: 0.0999 }
+}
+
+# GoldenEye X Explosion Type Overrides
+ExplosionTypes {
+	0x0028 { Type: "A51TABLE" }
+	0x002a { Type: "A51TABLE" }
+	0x00ea { Type: "GASBARREL" }
+	0x014b { Type: "A51TABLE" }
+	0x015d { Type: "7" }
+	0x017d { Type: "EYESPY" }
+	0x0190 { Type: "NONE" }
+}
+
 # Archives BZ
 stage 0x48 {
 }
