@@ -47,14 +47,11 @@ stage 0x18 {
 }
 
 HeadsAndBodies {
+    slotnum 0x4b
     name "head_grey"
     filenum "CheadgreyZ"
 }
 
-MpHeads {
-    headnum 0
-    requirefeature 0
-}
 MpArena {
     stagenum 3
     requirefeature 0
