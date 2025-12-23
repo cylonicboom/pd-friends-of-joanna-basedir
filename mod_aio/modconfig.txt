@@ -53,367 +53,367 @@ HeadsAndBodies {
 }
 
 MpArena {
-    stagenum 3
-    requirefeature 0
-    name 20601
+    stagenum 0x03
+    requirefeature 0x00
+    name 0x5079
 }
 MpArena {
-    stagenum 32
-    requirefeature 0
-    name 20602
+    stagenum 0x20
+    requirefeature 0x00
+    name 0x507A
 }
 MpArena {
-    stagenum 66
-    requirefeature 0
-    name 20603
+    stagenum 0x42
+    requirefeature 0x00
+    name 0x507B
 }
 MpArena {
-    stagenum 60
-    requirefeature 0
-    name 20604
+    stagenum 0x3C
+    requirefeature 0x00
+    name 0x507C
 }
 MpArena {
-    stagenum 71
-    requirefeature 0
-    name 20605
+    stagenum 0x47
+    requirefeature 0x00
+    name 0x507D
 }
 MpArena {
-    stagenum 65
-    requirefeature 0
-    name 20606
+    stagenum 0x41
+    requirefeature 0x00
+    name 0x507E
 }
 MpArena {
-    stagenum 59
-    requirefeature 0
-    name 20607
+    stagenum 0x3B
+    requirefeature 0x00
+    name 0x507F
 }
 MpArena {
-    stagenum 57
-    requirefeature 0
-    name 20608
+    stagenum 0x39
+    requirefeature 0x00
+    name 0x5080
 }
 MpArena {
-    stagenum 68
-    requirefeature 0
-    name 20610
+    stagenum 0x44
+    requirefeature 0x00
+    name 0x5082
 }
 MpArena {
-    stagenum 69
-    requirefeature 0
-    name 20611
+    stagenum 0x45
+    requirefeature 0x00
+    name 0x5083
 }
 MpArena {
-    stagenum 61
-    requirefeature 0
-    name 20612
+    stagenum 0x3D
+    requirefeature 0x00
+    name 0x5084
 }
 MpArena {
-    stagenum 48
-    requirefeature 0
-    name 22149
+    stagenum 0x30
+    requirefeature 0x00
+    name 0x5685
 }
 MpArena {
-    stagenum 51
-    requirefeature 0
-    name 22151
+    stagenum 0x33
+    requirefeature 0x00
+    name 0x5687
 }
 MpArena {
-    stagenum 44
-    requirefeature 0
-    name 22155
+    stagenum 0x2C
+    requirefeature 0x00
+    name 0x568B
 }
 MpArena {
-    stagenum 29
-    requirefeature 0
-    name 22157
+    stagenum 0x1D
+    requirefeature 0x00
+    name 0x568D
 }
 MpArena {
-    stagenum 30
-    requirefeature 0
-    name 22159
+    stagenum 0x1E
+    requirefeature 0x00
+    name 0x568F
 }
 MpArena {
-    stagenum 47
-    requirefeature 0
-    name 22161
+    stagenum 0x2F
+    requirefeature 0x00
+    name 0x5691
 }
 MpArena {
-    stagenum 39
-    requirefeature 0
-    name 22167
+    stagenum 0x27
+    requirefeature 0x00
+    name 0x5697
 }
 MpArena {
-    stagenum 49
-    requirefeature 0
-    name 22169
+    stagenum 0x31
+    requirefeature 0x00
+    name 0x5699
 }
 MpArena {
-    stagenum 28
-    requirefeature 0
-    name 22171
+    stagenum 0x1C
+    requirefeature 0x00
+    name 0x569B
 }
 MpArena {
-    stagenum 33
-    requirefeature 0
-    name 22173
+    stagenum 0x21
+    requirefeature 0x00
+    name 0x569D
 }
 MpArena {
-    stagenum 56
-    requirefeature 0
-    name 22175
+    stagenum 0x38
+    requirefeature 0x00
+    name 0x569F
 }
 MpArena {
-    stagenum 45
-    requirefeature 0
-    name 22177
+    stagenum 0x2D
+    requirefeature 0x00
+    name 0x56A1
 }
 MpArena {
-    stagenum 52
-    requirefeature 0
-    name 22179
+    stagenum 0x34
+    requirefeature 0x00
+    name 0x56A3
 }
 MpArena {
-    stagenum 42
-    requirefeature 0
-    name 22181
+    stagenum 0x2A
+    requirefeature 0x00
+    name 0x56A5
 }
 MpArena {
-    stagenum 37
-    requirefeature 0
-    name 20613
+    stagenum 0x25
+    requirefeature 0x00
+    name 0x5085
 }
 MpArena {
-    stagenum 31
-    requirefeature 0
-    name 20614
+    stagenum 0x1F
+    requirefeature 0x00
+    name 0x5086
 }
 MpArena {
-    stagenum 62
-    requirefeature 0
-    name 20786
+    stagenum 0x3E
+    requirefeature 0x00
+    name 0x5142
 }
 MpArena {
-    stagenum 58
-    requirefeature 0
-    name 20609
+    stagenum 0x3A
+    requirefeature 0x00
+    name 0x5081
 }
 MpArena {
-    stagenum 67
-    requirefeature 0
-    name 20615
+    stagenum 0x43
+    requirefeature 0x00
+    name 0x5087
 }
 MpArena {
-    stagenum 11
-    requirefeature 0
-    name 20613
+    stagenum 0x0B
+    requirefeature 0x00
+    name 0x5085
 }
 MpArena {
-    stagenum 6
-    requirefeature 0
-    name 20614
+    stagenum 0x06
+    requirefeature 0x00
+    name 0x5086
 }
 MpArena {
-    stagenum 13
-    requirefeature 0
-    name 20786
+    stagenum 0x0D
+    requirefeature 0x00
+    name 0x5142
 }
 MpArena {
-    stagenum 14
-    requirefeature 0
-    name 20783
+    stagenum 0x0E
+    requirefeature 0x00
+    name 0x513F
 }
 MpArena {
-    stagenum 18
-    requirefeature 0
-    name 20782
+    stagenum 0x12
+    requirefeature 0x00
+    name 0x513E
 }
 MpArena {
-    stagenum 21
-    requirefeature 0
-    name 20789
+    stagenum 0x15
+    requirefeature 0x00
+    name 0x5145
 }
 MpArena {
-    stagenum 15
-    requirefeature 0
-    name 20791
+    stagenum 0x0F
+    requirefeature 0x00
+    name 0x5147
 }
 MpArena {
-    stagenum 16
-    requirefeature 0
-    name 20780
+    stagenum 0x10
+    requirefeature 0x00
+    name 0x513C
 }
 MpArena {
-    stagenum 8
-    requirefeature 0
-    name 20779
+    stagenum 0x08
+    requirefeature 0x00
+    name 0x513B
 }
 MpArena {
-    stagenum 17
-    requirefeature 0
-    name 20785
+    stagenum 0x11
+    requirefeature 0x00
+    name 0x5141
 }
 MpArena {
-    stagenum 19
-    requirefeature 0
-    name 20792
+    stagenum 0x13
+    requirefeature 0x00
+    name 0x5148
 }
 MpArena {
-    stagenum 73
-    requirefeature 0
-    name 20787
+    stagenum 0x49
+    requirefeature 0x00
+    name 0x5143
 }
 MpArena {
-    stagenum 5
-    requirefeature 0
-    name 20778
+    stagenum 0x05
+    requirefeature 0x00
+    name 0x513A
 }
 MpArena {
-    stagenum 1
-    requirefeature 0
-    name 20794
+    stagenum 0x01
+    requirefeature 0x00
+    name 0x514A
 }
 MpArena {
-    stagenum 72
-    requirefeature 0
-    name 20802
+    stagenum 0x48
+    requirefeature 0x00
+    name 0x5152
 }
 MpArena {
-    stagenum 70
-    requirefeature 0
-    name 20795
+    stagenum 0x46
+    requirefeature 0x00
+    name 0x514B
 }
 MpArena {
-    stagenum 7
-    requirefeature 0
-    name 20790
+    stagenum 0x07
+    requirefeature 0x00
+    name 0x5146
 }
 MpArena {
-    stagenum 74
-    requirefeature 0
-    name 20784
+    stagenum 0x4A
+    requirefeature 0x00
+    name 0x5140
 }
 MpArena {
-    stagenum 10
-    requirefeature 0
-    name 20793
+    stagenum 0x0A
+    requirefeature 0x00
+    name 0x5149
 }
 MpArena {
-    stagenum 76
-    requirefeature 0
-    name 20788
+    stagenum 0x4C
+    requirefeature 0x00
+    name 0x5144
 }
 MpArena {
-    stagenum 75
-    requirefeature 0
-    name 20781
+    stagenum 0x4B
+    requirefeature 0x00
+    name 0x513D
 }
 MpArena {
-    stagenum 12
-    requirefeature 0
-    name 20796
+    stagenum 0x0C
+    requirefeature 0x00
+    name 0x514C
 }
 MpArena {
-    stagenum 64
-    requirefeature 0
-    name 20803
+    stagenum 0x40
+    requirefeature 0x00
+    name 0x5153
 }
 MpArena {
-    stagenum 36
-    requirefeature 0
-    name 20799
+    stagenum 0x24
+    requirefeature 0x00
+    name 0x514F
 }
 MpArena {
-    stagenum 63
-    requirefeature 0
-    name 20801
+    stagenum 0x3F
+    requirefeature 0x00
+    name 0x5151
 }
 MpArena {
-    stagenum 4
-    requirefeature 0
-    name 20804
+    stagenum 0x04
+    requirefeature 0x00
+    name 0x5154
 }
 MpArena {
-    stagenum 26
-    requirefeature 0
-    name 20805
+    stagenum 0x1A
+    requirefeature 0x00
+    name 0x5155
 }
 MpArena {
-    stagenum 81
-    requirefeature 0
-    name 20807
+    stagenum 0x51
+    requirefeature 0x00
+    name 0x5157
 }
 MpArena {
-    stagenum 82
-    requirefeature 0
-    name 20808
+    stagenum 0x52
+    requirefeature 0x00
+    name 0x5158
 }
 MpArena {
-    stagenum 83
-    requirefeature 0
-    name 20809
+    stagenum 0x53
+    requirefeature 0x00
+    name 0x5159
 }
 MpArena {
-    stagenum 84
-    requirefeature 0
-    name 20810
+    stagenum 0x54
+    requirefeature 0x00
+    name 0x515A
 }
 MpArena {
-    stagenum 85
-    requirefeature 0
-    name 20811
+    stagenum 0x55
+    requirefeature 0x00
+    name 0x515B
 }
 MpArena {
-    stagenum 86
-    requirefeature 0
-    name 20812
+    stagenum 0x56
+    requirefeature 0x00
+    name 0x515C
 }
 MpArena {
-    stagenum 87
-    requirefeature 0
-    name 20813
+    stagenum 0x57
+    requirefeature 0x00
+    name 0x515D
 }
 MpArena {
-    stagenum 88
-    requirefeature 0
-    name 20814
+    stagenum 0x58
+    requirefeature 0x00
+    name 0x515E
 }
 MpArena {
-    stagenum 89
-    requirefeature 0
-    name 20815
+    stagenum 0x59
+    requirefeature 0x00
+    name 0x515F
 }
 MpArena {
-    stagenum 90
-    requirefeature 0
-    name 20816
+    stagenum 0x5A
+    requirefeature 0x00
+    name 0x5160
 }
 MpArena {
-    stagenum 91
-    requirefeature 0
-    name 20817
+    stagenum 0x5B
+    requirefeature 0x00
+    name 0x5161
 }
 MpArena {
-    stagenum 80
-    requirefeature 0
-    name 20818
+    stagenum 0x50
+    requirefeature 0x00
+    name 0x5162
 }
 MpArena {
-    stagenum 2
-    requirefeature 0
-    name 20774
+    stagenum 0x02
+    requirefeature 0x00
+    name 0x5136
 }
 MpArena {
-    stagenum 3
-    requirefeature 0
-    name 20775
+    stagenum 0x03
+    requirefeature 0x00
+    name 0x5137
 }
 MpArena {
-    stagenum 4
-    requirefeature 0
-    name 20797
+    stagenum 0x04
+    requirefeature 0x00
+    name 0x514D
 }
 MpArena {
-    stagenum 1
-    requirefeature 0
-    name 20616
+    stagenum 0x01
+    requirefeature 0x00
+    name 0x5088
 }
