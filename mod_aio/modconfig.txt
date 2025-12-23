@@ -42,8 +42,189 @@ modversion "1.0"
 #      Merged Atari-Dude mod files (July 20, 2025)
 
 # Suburb
-stage 0x18 {
+stage 0x04 {
   allocation "-ml0 -me0 -mgfx110 -mgfxtra80 -mvtx100 -ma700"
+}
+
+# Training Day
+stage 0x1A {
+  allocation "-ml0 -me0 -mgfx110 -mgfxtra80 -mvtx100 -ma700"
+}
+
+# GoldenEye X stages
+# Frigate
+stage 0x05 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Complex
+stage 0x06 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Train
+stage 0x07 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Archives
+stage 0x08 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Aztec
+stage 0x0A {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Temple
+stage 0x0B {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Icicle Pyramid
+stage 0x0C {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Caves
+stage 0x0D {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Library
+stage 0x0E {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Facility
+stage 0x0F {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Bunker
+stage 0x10 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Caverns
+stage 0x11 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Basement
+stage 0x12 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Egyptian
+stage 0x13 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Stack
+stage 0x15 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Dark Noon Valley
+stage 0x3F {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Cliff Base
+stage 0x40 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Streets
+stage 0x46 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Archives BZ
+stage 0x48 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Facility BZ
+stage 0x49 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Cradle
+stage 0x4A {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Labyrinth
+stage 0x4B {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Citadel
+stage 0x4C {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Grand Library
+stage 0x50 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Runway
+stage 0x51 {
+  allocation "-ml0 -me0 -mgfx110 -mgfxtra80 -mvtx100 -ma700"
+}
+
+# Control
+stage 0x52 {
+  allocation "-ml0 -me0 -mgfx110 -mgfxtra80 -mvtx100 -ma700"
+}
+
+# Tawfret Ruins (Kakariko)
+stage 0x53 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Targitzan's Temple (Kakariko)
+stage 0x54 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Junkyard (Goldfinger 64)
+stage 0x55 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Steel Mill (Goldfinger 64)
+stage 0x56 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Mall (Goldfinger 64)
+stage 0x57 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Tunnels (Goldfinger 64)
+stage 0x58 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Rogue
+stage 0x59 {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
+}
+
+# Paradox
+stage 0x5A {
+  allocation "-ml0 -me0 -mgfx120 -mvtx200 -ma400"
+}
+
+# War Colors (Kakariko)
+stage 0x5B {
+  allocation "-ml0 -me0 -mgfx200 -mvtx200 -ma400"
 }
 
 HeadsAndBodies {
@@ -55,365 +236,365 @@ HeadsAndBodies {
 MpArena {
     stagenum 0x03
     requirefeature 0x00
-    name 0x5079
+    literalname "Ravine (MP)"
 }
 MpArena {
     stagenum 0x20
     requirefeature 0x00
-    name 0x507A
+    literalname "G5 Building (MP)"
 }
 MpArena {
     stagenum 0x42
     requirefeature 0x00
-    name 0x507B
+    literalname "Sewers (MP)"
 }
 MpArena {
     stagenum 0x3C
     requirefeature 0x00
-    name 0x507C
+    literalname "Warehouse (MP)"
 }
 MpArena {
     stagenum 0x47
     requirefeature 0x00
-    name 0x507D
+    literalname "Grid (MP)"
 }
 MpArena {
     stagenum 0x41
     requirefeature 0x00
-    name 0x507E
+    literalname "Ruins (MP)"
 }
 MpArena {
     stagenum 0x3B
     requirefeature 0x00
-    name 0x507F
+    literalname "Area 52 (MP)"
 }
 MpArena {
     stagenum 0x39
     requirefeature 0x00
-    name 0x5080
+    literalname "Base (MP)"
 }
 MpArena {
     stagenum 0x44
     requirefeature 0x00
-    name 0x5082
+    literalname "Fortress (MP)"
 }
 MpArena {
     stagenum 0x45
     requirefeature 0x00
-    name 0x5083
+    literalname "Villa (MP)"
 }
 MpArena {
     stagenum 0x3D
     requirefeature 0x00
-    name 0x5084
+    literalname "Car Park (MP)"
 }
 MpArena {
     stagenum 0x30
     requirefeature 0x00
-    name 0x5685
+    literalname "dataDyne Central"
 }
 MpArena {
     stagenum 0x33
     requirefeature 0x00
-    name 0x5687
+    literalname "dataDyne Research"
 }
 MpArena {
     stagenum 0x2C
     requirefeature 0x00
-    name 0x568B
+    literalname "Carrington Villa"
 }
 MpArena {
     stagenum 0x1D
     requirefeature 0x00
-    name 0x568D
+    literalname "Chicago"
 }
 MpArena {
     stagenum 0x1E
     requirefeature 0x00
-    name 0x568F
+    literalname "G5 Building"
 }
 MpArena {
     stagenum 0x2F
     requirefeature 0x00
-    name 0x5691
+    literalname "Area 51"
 }
 MpArena {
     stagenum 0x27
     requirefeature 0x00
-    name 0x5697
+    literalname "Air Base"
 }
 MpArena {
     stagenum 0x31
     requirefeature 0x00
-    name 0x5699
+    literalname "Air Force One"
 }
 MpArena {
     stagenum 0x1C
     requirefeature 0x00
-    name 0x569B
+    literalname "Crash Site"
 }
 MpArena {
     stagenum 0x21
     requirefeature 0x00
-    name 0x569D
+    literalname "Pelagic II"
 }
 MpArena {
     stagenum 0x38
     requirefeature 0x00
-    name 0x569F
+    literalname "Deep Sea"
 }
 MpArena {
     stagenum 0x2D
     requirefeature 0x00
-    name 0x56A1
+    literalname "Carrington Institute"
 }
 MpArena {
     stagenum 0x34
     requirefeature 0x00
-    name 0x56A3
+    literalname "Attack Ship"
 }
 MpArena {
     stagenum 0x2A
     requirefeature 0x00
-    name 0x56A5
+    literalname "Skedar Ruins"
 }
 MpArena {
     stagenum 0x25
     requirefeature 0x00
-    name 0x5085
+    literalname "Temple"
 }
 MpArena {
     stagenum 0x1F
     requirefeature 0x00
-    name 0x5086
+    literalname "Complex"
 }
 MpArena {
     stagenum 0x3E
     requirefeature 0x00
-    name 0x5142
+    literalname "Caves (PD Plus)"
 }
 MpArena {
     stagenum 0x3A
     requirefeature 0x00
-    name 0x5081
+    literalname "Stack (PD Plus)"
 }
 MpArena {
     stagenum 0x43
     requirefeature 0x00
-    name 0x5087
+    literalname "Felicity"
 }
 MpArena {
     stagenum 0x0B
     requirefeature 0x00
-    name 0x5085
+    literalname "Temple"
 }
 MpArena {
     stagenum 0x06
     requirefeature 0x00
-    name 0x5086
+    literalname "Complex"
 }
 MpArena {
     stagenum 0x0D
     requirefeature 0x00
-    name 0x5142
+    literalname "Caves"
 }
 MpArena {
     stagenum 0x0E
     requirefeature 0x00
-    name 0x513F
+    literalname "Library"
 }
 MpArena {
     stagenum 0x12
     requirefeature 0x00
-    name 0x513E
+    literalname "Basement"
 }
 MpArena {
     stagenum 0x15
     requirefeature 0x00
-    name 0x5145
+    literalname "Stack"
 }
 MpArena {
     stagenum 0x0F
     requirefeature 0x00
-    name 0x5147
+    literalname "Facility"
 }
 MpArena {
     stagenum 0x10
     requirefeature 0x00
-    name 0x513C
+    literalname "Bunker"
 }
 MpArena {
     stagenum 0x08
     requirefeature 0x00
-    name 0x513B
+    literalname "Archives"
 }
 MpArena {
     stagenum 0x11
     requirefeature 0x00
-    name 0x5141
+    literalname "Caverns"
 }
 MpArena {
     stagenum 0x13
     requirefeature 0x00
-    name 0x5148
+    literalname "Egyptian"
 }
 MpArena {
     stagenum 0x49
     requirefeature 0x00
-    name 0x5143
+    literalname "Facility BZ"
 }
 MpArena {
     stagenum 0x05
     requirefeature 0x00
-    name 0x513A
+    literalname "Frigate"
 }
 MpArena {
     stagenum 0x01
     requirefeature 0x00
-    name 0x514A
+    literalname "Archives 1F (GE-X 5e)"
 }
 MpArena {
     stagenum 0x48
     requirefeature 0x00
-    name 0x5152
+    literalname "Archives BZ"
 }
 MpArena {
     stagenum 0x46
     requirefeature 0x00
-    name 0x514B
+    literalname "Streets"
 }
 MpArena {
     stagenum 0x07
     requirefeature 0x00
-    name 0x5146
+    literalname "Train"
 }
 MpArena {
     stagenum 0x4A
     requirefeature 0x00
-    name 0x5140
+    literalname "Cradle"
 }
 MpArena {
     stagenum 0x0A
     requirefeature 0x00
-    name 0x5149
+    literalname "Aztec"
 }
 MpArena {
     stagenum 0x4C
     requirefeature 0x00
-    name 0x5144
+    literalname "Citadel"
 }
 MpArena {
     stagenum 0x4B
     requirefeature 0x00
-    name 0x513D
+    literalname "Labyrinth"
 }
 MpArena {
     stagenum 0x0C
     requirefeature 0x00
-    name 0x514C
+    literalname "Icicle Pyramid"
 }
 MpArena {
     stagenum 0x40
     requirefeature 0x00
-    name 0x5153
+    literalname "Cliff Base"
 }
 MpArena {
     stagenum 0x24
     requirefeature 0x00
-    name 0x514F
+    literalname "Kakariko Village (Stormy)"
 }
 MpArena {
     stagenum 0x3F
     requirefeature 0x00
-    name 0x5151
+    literalname "Dark Noon Mod Valley"
 }
 MpArena {
     stagenum 0x04
     requirefeature 0x00
-    name 0x5154
+    literalname "Suburb"
 }
 MpArena {
     stagenum 0x1A
     requirefeature 0x00
-    name 0x5155
+    literalname "Training Day"
 }
 MpArena {
     stagenum 0x51
     requirefeature 0x00
-    name 0x5157
+    literalname "Runway"
 }
 MpArena {
     stagenum 0x52
     requirefeature 0x00
-    name 0x5158
+    literalname "Control"
 }
 MpArena {
     stagenum 0x53
     requirefeature 0x00
-    name 0x5159
+    literalname "Tawfret Ruins"
 }
 MpArena {
     stagenum 0x54
     requirefeature 0x00
-    name 0x515A
+    literalname "Targitzan's Temple"
 }
 MpArena {
     stagenum 0x55
     requirefeature 0x00
-    name 0x515B
+    literalname "Junkyard"
 }
 MpArena {
     stagenum 0x56
     requirefeature 0x00
-    name 0x515C
+    literalname "Steel Mill"
 }
 MpArena {
     stagenum 0x57
     requirefeature 0x00
-    name 0x515D
+    literalname "Mall"
 }
 MpArena {
     stagenum 0x58
     requirefeature 0x00
-    name 0x515E
+    literalname "Tunnels"
 }
 MpArena {
     stagenum 0x59
     requirefeature 0x00
-    name 0x515F
+    literalname "Rogue"
 }
 MpArena {
     stagenum 0x5A
     requirefeature 0x00
-    name 0x5160
+    literalname "Paradox"
 }
 MpArena {
     stagenum 0x5B
     requirefeature 0x00
-    name 0x5161
+    literalname "War Colors"
 }
 MpArena {
     stagenum 0x50
     requirefeature 0x00
-    name 0x5162
+    literalname "Grand Library"
 }
 MpArena {
     stagenum 0x02
     requirefeature 0x00
-    name 0x5136
+    literalname "Random Multi"
 }
 MpArena {
     stagenum 0x03
     requirefeature 0x00
-    name 0x5137
+    literalname "Random Solo"
 }
 MpArena {
     stagenum 0x04
     requirefeature 0x00
-    name 0x514D
+    literalname "Random GoldenEye X"
 }
 MpArena {
     stagenum 0x01
     requirefeature 0x00
-    name 0x5088
+    literalname "Random"
 }
