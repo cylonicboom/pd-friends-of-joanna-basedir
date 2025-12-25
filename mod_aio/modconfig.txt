@@ -233,60 +233,96 @@ HeadsAndBodies {
     filenum "CheadgreyZ"
 }
 
+MpArenaGroup {
+    literalname "Dark"
+    langid 0x5074
+    startindex 0
+}
+MpArenaGroup {
+    literalname "Solo Missions"
+    langid 0x5675
+    startindex 13
+}
+MpArenaGroup {
+    literalname "Classic"
+    langid 0x5075
+    startindex 27
+}
+MpArenaGroup {
+    literalname "GoldenEye X"
+    langid 0x5128
+    startindex 32
+}
+MpArenaGroup {
+    literalname "GoldenEye X Bonus"
+    langid 0x5129
+    startindex 43
+}
+MpArenaGroup {
+    literalname "Bonus"
+    langid 0x5146
+    startindex 55
+}
+MpArenaGroup {
+    literalname "Random"
+    langid 0x5076
+    startindex 71
+}
+
 MpArena {
     stagenum 0x03
     requirefeature 0x00
-    literalname "Ravine (MP)"
+    literalname "Ravine"
 }
 MpArena {
     stagenum 0x20
     requirefeature 0x00
-    literalname "G5 Building (MP)"
+    literalname "G5 Building"
 }
 MpArena {
     stagenum 0x42
     requirefeature 0x00
-    literalname "Sewers (MP)"
+    literalname "Sewers"
 }
 MpArena {
     stagenum 0x3C
     requirefeature 0x00
-    literalname "Warehouse (MP)"
+    literalname "Warehouse"
 }
 MpArena {
     stagenum 0x47
     requirefeature 0x00
-    literalname "Grid (MP)"
+    literalname "Grid"
 }
 MpArena {
     stagenum 0x41
     requirefeature 0x00
-    literalname "Ruins (MP)"
+    literalname "Ruins"
 }
 MpArena {
     stagenum 0x3B
     requirefeature 0x00
-    literalname "Area 52 (MP)"
+    literalname "Area 52"
 }
 MpArena {
     stagenum 0x39
     requirefeature 0x00
-    literalname "Base (MP)"
+    literalname "Base"
 }
 MpArena {
     stagenum 0x44
     requirefeature 0x00
-    literalname "Fortress (MP)"
+    literalname "Fortress"
 }
 MpArena {
     stagenum 0x45
     requirefeature 0x00
-    literalname "Villa (MP)"
+    literalname "Villa"
 }
 MpArena {
     stagenum 0x3D
     requirefeature 0x00
-    literalname "Car Park (MP)"
+    literalname "Car Park"
 }
 MpArena {
     stagenum 0x30
