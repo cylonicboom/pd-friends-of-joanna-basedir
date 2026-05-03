@@ -1,5 +1,5 @@
 modname "mod_fojo"
-modversion "0.3.0"
+modversion "0.3.1"
 
 # Mod: Friends of Joanna
 # stage fixes for Friends of Joanna
@@ -11,8 +11,9 @@ modversion "0.3.0"
 # setup Mikado Dark
 HeadsAndBodies {
     slotnum 0x4b
-    name "head_grey"
-    filenum "CheadgreyZ"
+    name "head_mikado"
+    filenum "CheadMikadoZ"
+    ismale 0
     type 1
 }
 
@@ -21,6 +22,7 @@ HeadsAndBodies {
     slotnum 0x4c
     name "head_foslerfer"
     filenum "CheadFoslerferZ"
+    ismale 0
     type 1
     yoffset -54
 }
@@ -30,9 +32,21 @@ HeadsAndBodies {
     slotnum 0x4d
     name "head_catherine"
     filenum "CheadCatherineZ"
+    ismale 0
     type 1
     yoffset -54
 }
+
+# setup Ace
+# uncomment when head is ready
+# HeadsAndBodies {
+#     slotnum 0x4e
+#     name "head_ace"
+#     filenum "CheadAceZ"
+#     ismale 1
+#     type 0
+#     yoffset -54
+# }
 
 # 0.0
 # CI Training
