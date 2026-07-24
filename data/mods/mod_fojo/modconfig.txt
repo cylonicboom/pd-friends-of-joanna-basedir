@@ -14,32 +14,46 @@ modversion "0.3.1"
 
 
 # setup Mikado Dark
+#name "head_mikado"
 HeadsAndBodies {
     slotnum 0x4b
-    name "head_grey"
-    filenum "CheadgreyZ"
+    filenum "CheadMikadoZ"
+    ismale 0
     type 1
 }
 
 # HACK: Fosler/Catherine's heads are imported from a goldeneye mod, so we need adjust their yoffset -54
 
 # setup Poplin Dark
+#name "head_foslerfer"
 HeadsAndBodies {
     slotnum 0x4c
-    #name "head_foslerfer"
     filenum "CheadFoslerferZ"
+    ismale 0
     type 1
     yoffset -54
 }
 
 # setup Calico Dark
+#name "head_catherine"
 HeadsAndBodies {
     slotnum 0x4d
-    #name "head_catherine"
     filenum "CheadCatherineZ"
+    ismale 0
     type 1
     yoffset -54
 }
+
+# setup Ace
+# uncomment when head is ready
+# HeadsAndBodies {
+#     slotnum 0x4e
+#     name "head_ace"
+#     filenum "CheadAceZ"
+#     ismale 1
+#     type 0
+#     yoffset -54
+# }
 
 # 0.0
 # CI Training
