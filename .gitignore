@@ -2,4 +2,7 @@
 !modconfig.txt
 !.gitignore
 !readme.md
-*
+*.z64
+CheadgreyZ
+CheadMikadoZ
+data/mods-*
