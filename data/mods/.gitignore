@@ -1,8 +1,8 @@
 #ignore everything but a modconfig
 !modconfig.txt
-!.gitignore
-!readme.md
-*.z64
 CheadgreyZ
 CheadMikadoZ
-data/mods-*
+0c58.bin
+0c59.bin
+0c5a.bin
+0c5b.bin
