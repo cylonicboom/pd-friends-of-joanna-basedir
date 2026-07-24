@@ -1,0 +1,5 @@
+#ignore everything but a modconfig
+!modconfig.txt
+!.gitignore
+!readme.md
+*
