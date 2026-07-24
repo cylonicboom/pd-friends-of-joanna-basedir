@@ -1,65 +1,147 @@
 modname "mod_fojo"
-modversion "1.0"
+modversion "0.3.1"
 
 # Mod: Friends of Joanna
 # stage fixes for Friends of Joanna
+# new heads for Friends of Joanna:
+# Mikado Dark - uses head_grey slot
+# Poplin Dark - assigned to expanded slot 0x4c
+# Calico Dark - assigned to expanded slot 0x4d
+
 # Author: Catherine Reprobate
 
 # Setup files generated from https://github.com/cylonicboom/pd-friends-of-joanna/tree/fojo-ailists (based on N64 / master branch)
 
+
+# setup Mikado Dark
+HeadsAndBodies {
+    slotnum 0x4b
+    name "head_grey"
+    filenum "CheadgreyZ"
+    type 1
+}
+
+# HACK: Fosler/Catherine's heads are imported from a goldeneye mod, so we need adjust their yoffset -54
+
+# setup Poplin Dark
+HeadsAndBodies {
+    slotnum 0x4c
+    #name "head_foslerfer"
+    filenum "CheadFoslerferZ"
+    type 1
+    yoffset -54
+}
+
+# setup Calico Dark
+HeadsAndBodies {
+    slotnum 0x4d
+    #name "head_catherine"
+    filenum "CheadCatherineZ"
+    type 1
+    yoffset -54
+}
+
+# 0.0
 # CI Training
 # pre-load Mikado Dark as a hidden character
-#stage 0x26 {
-#setupfile "UsetupdishZ"
-#}
+stage 0x26 {
+    setupfile "UsetupdishZ"
+}
 
+# 1.1
 # defection
 # ⏰
 stage 0x30 {
     setupfile "UsetupameZ"
 }
 
+# 1.2
 # investigation
 # extra spawn
 stage 0x33 {
     setupfile "UsetupearZ"
 }
 
+# 2.1
 # villa
 stage 0x2c {
     setupFile "UsetupeldZ"
 }
 
+# 3.1
 # chicago
 stage 0x1d {
     setupfile "UsetuppeteZ"
 }
 
+# 4.2
 # infiltration
 stage 0x2f {
     setupfile "UsetuplueZ"
 }
 
+# 5.1
+# Air Base
+stage 0x27 {
+    setupfile "UsetupcaveZ"
+}
+
+# 5.2
+# af1
+stage 0x31 {
+    setupfile "UsetupritZ"
+}
+
+# 5.3
+# crash site
+stage 0x1c {
+    setupfile "UsetupaztZ"
+}
+
+# 6.1
+# Pelagic II
+stage 0x21 {
+    setupfile "UsetupdamZ"
+}
+
+# 6.2
 # deep sea
 # teleportal fixes
 stage 0x38 {
     setupfile "UsetuppamZ"
 }
 
+# 7.1
 # ci defense
 # extra spawns, QOL changes for coop mode
 stage 0x2d {
     setupfile "UsetupimpZ"
 }
 
+# 8.1
 # attack ship
 # hangar elevator fixes
 stage 0x34 {
     setupfile "UsetupleeZ"
 }
 
+# Skedar Ruins
+stage 0x2a {
+    setupfile "UsetupshoZ"
+}
+
+# Mr. Blonde's Revenge
+stage 0x37 {
+    setupfile "UsetupwaxZ"
+}
+
 # war
 # extra spawns for coop characters
 stage 0x16 {
     setupfile "UsetupstatZ"
+}
+
+# Maian SOS
+stage 0x09 {
+    setupfile "UsetupsevZ"
 }
