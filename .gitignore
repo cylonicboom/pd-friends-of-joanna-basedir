@@ -3,6 +3,10 @@
 !.gitignore
 !readme.md
 *.z64
+mpsetups.bin
+pd.ini
+.DS_STORE
+eeprom.bin
 CheadgreyZ
 CheadMikadoZ
 data/mods-*
