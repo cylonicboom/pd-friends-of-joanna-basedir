@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# update script for managing basedir / mods layout for Perfect Dark: Friends of Joanna
+# assumptions: 
+# - 'git push' is set to push to the remote you want / upstrem is set
+# - you have push rights to the default repo, otherwise you'll need to provide your own REMOTE_URL during setup and SUBTREE_BRANCH during push
+# - usage: REMOTE_URL=... tools/sync setup; SUBTREE_BRANCH=... tools/push
+
+REMOTE_NAME="${REMOTE_NAME:-pd-friends-of-joanna-modconfig}"
+REMOTE_URL="${REMOTE_URL:-https://github.com/cylonicboom/pd-friends-of-joanna-modconfig}"
+SUBTREE_PREFIX=data/mods
+SUBTREE_BRANCH="${SUBTREE_BRANCH:-fojo-v0.3.1}"
+
+setup_remote() {
+  if git remote get-url "$REMOTE_NAME" >/dev/null 2>&1; then
+    current_url="$(git remote get-url "$REMOTE_NAME")"
+    if [[ "$current_url" != "$REMOTE_URL" ]]; then
+      echo "Remote '$REMOTE_NAME' exists with different URL; updating to expected URL."
+      git remote set-url "$REMOTE_NAME" "$REMOTE_URL"
+    else
+      echo "Remote '$REMOTE_NAME' is already configured."
+    fi
+  else
+    echo "Adding remote '$REMOTE_NAME' -> $REMOTE_URL"
+    git remote add "$REMOTE_NAME" "$REMOTE_URL"
+  fi
+}
+
+push_changes() {
+  git push
+  git subtree push --prefix="$SUBTREE_PREFIX" "$REMOTE_NAME" "$SUBTREE_BRANCH"
+}
+
+detect_project_root() {
+  git rev-parse --show-toplevel 2>/dev/null || true
+}
+
+main() {
+  cmd="${1:-}"
+
+  case "$cmd" in
+    setup)
+      setup_remote
+      ;;
+    push)
+      project_root="$(detect_project_root)"
+      if [[ -z "$project_root" ]]; then
+        echo "Error: not inside a git repository."
+        exit 1
+      fi
+
+      (
+        pushd "$project_root" >/dev/null
+        cleanup() {
+          popd >/dev/null || true
+        }
+        trap cleanup EXIT
+
+        setup_remote
+        push_changes
+      )
+      ;;
+    *)
+      echo "Usage: $0 {setup|push}"
+      exit 1
+      ;;
+  esac
+}
+
+main "$@"
