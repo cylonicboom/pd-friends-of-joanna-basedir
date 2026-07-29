@@ -22,13 +22,14 @@ HeadsAndBodies {
     type 1
 }
 
-# HACK: Fosler/Catherine's heads are imported from a goldeneye mod, so we need adjust their yoffset -54
+# HACK: Fosler/Catherine's heads are imported from a goldeneye mod, so we need adjust their yoffset -54 and their scale
 
 # setup Poplin Dark
 #name "head_foslerfer"
 HeadsAndBodies {
     slotnum 0x4c
     filenum "CheadFoslerferZ"
+    scale .88
     ismale 0
     type 1
     yoffset -54
@@ -39,6 +40,7 @@ HeadsAndBodies {
 HeadsAndBodies {
     slotnum 0x4d
     filenum "CheadCatherineZ"
+    scale .88
     ismale 0
     type 1
     yoffset -54
