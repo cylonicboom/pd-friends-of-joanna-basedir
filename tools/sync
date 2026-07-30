@@ -10,7 +10,7 @@ set -euo pipefail
 REMOTE_NAME="${REMOTE_NAME:-pd-friends-of-joanna-modconfig}"
 REMOTE_URL="${REMOTE_URL:-https://github.com/cylonicboom/pd-friends-of-joanna-modconfig}"
 SUBTREE_PREFIX=data/mods
-SUBTREE_BRANCH="${SUBTREE_BRANCH:-fojo-v0.3.1}"
+SUBTREE_BRANCH="${SUBTREE_BRANCH:-fojo-v0.4.1}"
 
 setup_remote() {
   if git remote get-url "$REMOTE_NAME" >/dev/null 2>&1; then
